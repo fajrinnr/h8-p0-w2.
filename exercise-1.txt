@@ -1,0 +1,37 @@
+ALGORITMA
+
+1. NEWTON SECOND LAW
+
+Menghitung Resultan Gaya pada sebuah mobil.
+
+- Mencari nilai massa mobil dalam satuan kilogram (kg).
+- Mencari nilai percepatan yang di alami oleh mobil dalam satuan meter per second kuadrat (m/s2).
+- Mengkalikan nilai massa mobil dengan percepatan yang di alami oleh mobil.
+
+2. TAHUN KABISAT
+
+Menentukan suatu tahun merupakan tahun kabisat atau bukan.
+
+- Menentukan tahun berapa.
+- Jika hasil pembagian tahun dengan 4 tidak ada sisa, dan hasil pembagian tahun dengan 100 ada sisa 
+  maka tahun itu merupakan kabisat.
+- Atau jika hasil pembagian tahun dengan 4, 100 dan 400 tidak ada sisa maka tahun itu merupakan tahun kabisat juga.
+- Jika tidak memenuhi 2 kondisi di atas maka tahun itu bukan merupakan tahun kabisat.
+
+3. LAUNDRY DAY
+
+Menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci.
+
+- Menentukan jumlah pakaian yang ingin dicuci.
+- Membuka tutup mesin cuci.
+- Masukkan pakaian yang ingin dicuci satu per satu.
+- Jika jumlah pakaian yang dimasukkan sudah sama dengan jumlah pakaian yang ingin dicuci
+  maka mesin cuci akan dinyalakan.
+- Jika jumlah pakaian yang dimasukkan tidak sama dengan jumlah pakaian yang ingin dicuci 
+  maka mesin cuci tidak akan dinyalakan.
+
+4. PERIKSA KUKU
+
+- Guru berkeliling kelas.
+- Jika guru menemukan siswa dengan kuku yang panjang maka guru akan menghukum siswa/siswi tersebut.
+- Jika guru menemukan siswa dengan kuku yang tidak panjang maka guru akan memuji siswa/siswi tersebut.
