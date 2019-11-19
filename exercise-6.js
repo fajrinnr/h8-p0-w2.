@@ -33,7 +33,7 @@ for(var angka = 20; angka !=0; angka--) {
 // 3. Angka Ganjil dan Genap //
 
     // Ganjil Genap //
-for(var angka = 1; angka <= 5; angka++) {
+for(var angka = 1; angka <= 100; angka++) {
     if (angka %2 == 0)
     console.log('GENAP')
     else
