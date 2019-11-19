@@ -35,7 +35,7 @@ Menentukan suatu tahun merupakan tahun kabisat atau bukan.
 
     PSEUDOCODE
 
-STORE "tahun" with any value
+STORE "tahun" with any numeric value
 
 IF "tahun" mod 4 equals 0
 THEN 
