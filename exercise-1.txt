@@ -65,7 +65,7 @@ Menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci.
 
     PSEUDOCODE
 
-STORE "target" with any value
+STORE "target" with any numeric values
 STORE "pakaian" with 0
 
 WHILE "pakaian" LESS THAN "target"
@@ -84,7 +84,7 @@ DISPLAY "Mesin cuci dinyalakan"
 
     PSEUDOCODE
 
-STORE "kukupendek" with true or false
+STORE "kukupendek" with boolean values
 
 IF "kukupendek" value is true
 THEN DISPLAY "Guru Memuji"
