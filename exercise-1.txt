@@ -1,16 +1,31 @@
-ALGORITMA
+ALGORITMA DAN PSEUDOCODE
 
 1. NEWTON SECOND LAW
 
 Menghitung Resultan Gaya pada sebuah mobil.
 
-- Mencari nilai massa mobil dalam satuan kilogram (kg).
-- Mencari nilai percepatan yang di alami oleh mobil dalam satuan meter per second kuadrat (m/s2).
+    ALGORITMA
+
+- Menyimpan nilai massa mobil yaitu 60 dalam satuan kilogram (kg).
+- Menyimpan nilai percepatan yang di alami oleh mobil yaitu 2 dalam satuan meter per second kuadrat (m/s2).
 - Mengkalikan nilai massa mobil dengan percepatan yang di alami oleh mobil.
+
+    PSEUDOCODE
+
+STORE "massa" with 60
+STORE "percepatan" with 2
+STORE "resultan" without any value
+
+CALCULATE "massa" times "percepatan"
+SET "resultan" value with calculation result
+
+DISPLAY "resultan"
 
 2. TAHUN KABISAT
 
 Menentukan suatu tahun merupakan tahun kabisat atau bukan.
+
+    ALGORITMA
 
 - Menentukan tahun berapa.
 - Jika hasil pembagian tahun dengan 4 tidak ada sisa, dan hasil pembagian tahun dengan 100 ada sisa 
@@ -18,20 +33,60 @@ Menentukan suatu tahun merupakan tahun kabisat atau bukan.
 - Atau jika hasil pembagian tahun dengan 4, 100 dan 400 tidak ada sisa maka tahun itu merupakan tahun kabisat juga.
 - Jika tidak memenuhi 2 kondisi di atas maka tahun itu bukan merupakan tahun kabisat.
 
+    PSEUDOCODE
+
+STORE "tahun" with any value
+
+IF "tahun" mod 4 equals 0
+THEN 
+    IF "tahun" mod 100 equals 0
+    THEN
+        IF "tahun" mod 400 equals 0
+        THEN DISPLAY "Tahun Kabisat"
+        ELSE DISPLAY "Bukan Tahun Kabisat"
+        ENDIF
+    ELSE DISPLAY "Tahun Kabisat"
+    ENDIF
+ELSE DISPLAY "Bukan Tahun Kabisat"
+ENDIF
+
+
 3. LAUNDRY DAY
 
 Menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci.
+
+    ALGORITMA
 
 - Menentukan jumlah pakaian yang ingin dicuci.
 - Membuka tutup mesin cuci.
 - Masukkan pakaian yang ingin dicuci satu per satu.
 - Jika jumlah pakaian yang dimasukkan sudah sama dengan jumlah pakaian yang ingin dicuci
   maka mesin cuci akan dinyalakan.
-- Jika jumlah pakaian yang dimasukkan tidak sama dengan jumlah pakaian yang ingin dicuci 
-  maka mesin cuci tidak akan dinyalakan.
+
+    PSEUDOCODE
+
+STORE "target" with any value
+STORE "pakaian" with 0
+
+WHILE "pakaian" LESS THAN "target"
+ADD "pakaian" by 1
+ENDWHILE
+
+DISPLAY "Mesin cuci dinyalakan"
 
 4. PERIKSA KUKU
 
-- Guru berkeliling kelas.
+    ALGORITMA
+
+- Guru menghampiri siswa/siswi.
 - Jika guru menemukan siswa dengan kuku yang panjang maka guru akan menghukum siswa/siswi tersebut.
 - Jika guru menemukan siswa dengan kuku yang tidak panjang maka guru akan memuji siswa/siswi tersebut.
+
+    PSEUDOCODE
+
+STORE "kukupendek" with true or false
+
+IF "kukupendek" value is true
+THEN DISPLAY "Guru Memuji"
+ELSE 
+THEN DISPLAY "Guru Menghukum" 
