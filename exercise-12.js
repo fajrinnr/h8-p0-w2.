@@ -2,10 +2,11 @@
 function konversiMenit(menit) {
     var menitKe = Math.floor(menit / 60);
     var detikKe = (menit %60)
-    if (detikKe < 10)
+    if (detikKe < 10) {
     return menitKe + ':0' +  detikKe
-    else
+    } else {
     return menitKe + ':' + detikKe
+    }
   }
   
   // TEST CASES
