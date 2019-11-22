@@ -1,7 +1,7 @@
-var hari = 11
-var bulan = 10
-var tahun = 1997
-var bulanString
+var hari = 21
+var bulan = 1
+var tahun = 1945
+var bulanString = ''
 
 switch (bulan) {
     case 1 :
@@ -41,5 +41,11 @@ switch (bulan) {
     bulanString = 'Desember'
     break
 }
-    
-console.log(hari + ' ' + bulanString + ' ' + tahun)
+
+if (hari > 0 && hari <= 31){
+    if (tahun >= 1900 && tahun <= 2200){
+        if (bulan > 0 && bulan <= 12){
+            console.log(hari + ' ' + bulanString + ' ' + tahun)
+        }
+    }
+} 
