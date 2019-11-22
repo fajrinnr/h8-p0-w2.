@@ -34,10 +34,11 @@ for(var angka = 20; angka !=0; angka--) {
 
     // Ganjil Genap //
 for(var angka = 1; angka <= 100; angka++) {
-    if (angka %2 == 0)
+    if (angka %2 == 0) {
     console.log('GENAP')
-    else
+    } else {
     console.log('GANJIL')
+    }
 }
 
     // Pertambahan Counter 2 //
@@ -45,8 +46,9 @@ var angka1 = 1
 
 while (angka1 <= 100) {
     angka1 += 2
-    if (angka1 %3 == 0)
+    if (angka1 %3 == 0) {
     console.log(`${angka1} KELIPATAN 3`)
+    }
 }
 
     // Pertambahan Counter 5 //
@@ -54,8 +56,9 @@ var angka2 = 1
 
 while (angka2 <= 100) {
     angka2 += 5
-    if (angka2 %6 == 0)
+    if (angka2 %6 == 0) {
     console.log(`${angka2} KELIPATAN 6`)
+    }
 }
 
     // Pertambahan Counter 9 //
@@ -63,6 +66,7 @@ var angka3 = 1
 
 while (angka3 <= 100) {
     angka3 += 9
-    if (angka3 %10 == 0)
+    if (angka3 %10 == 0) {
     console.log(`${angka3} KELIPATAN 10`)
+    }
 }
