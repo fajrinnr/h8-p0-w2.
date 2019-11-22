@@ -37,4 +37,4 @@ console.log(`Halo ${peran} ${nama}, kamu dapat menyerang dengan senjatamu!`)
 console.log(`Halo ${peran} ${nama}, kamu akan membantu temanmu yang terluka.`)
 } else if (nama === 'Jampang' && peran === 'Penyihir') {
 console.log(`Halo ${peran} ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`)
-}
+} 
